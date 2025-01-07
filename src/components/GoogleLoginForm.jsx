@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { GoogleOAuthProvider, GoogleLogin } from "@react-oauth/google";
 
-const CLIENT_ID =
-  "713134750794-r2bmisdpnmtd89ccuheg41v8d67hsi07.apps.googleusercontent.com"; // Google Cloud에서 받은 클라이언트 ID
+const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
 const GoogleLoginForm = () => {
   const [user, setUser] = useState(null);
