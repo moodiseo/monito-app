@@ -37,6 +37,7 @@ const GoogleLoginForm = () => {
               onSuccess={handleSuccess}
               onError={handleError}
               text="signin_with"
+              width="300px"
             />
           </>
         ) : (
