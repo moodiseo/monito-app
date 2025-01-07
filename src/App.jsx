@@ -1,11 +1,11 @@
 import "./App.css";
-import LoginForm from "./components/LoginForm";
+import GoogleLoginForm from "./components/GoogleLoginForm";
 
 function App() {
   return (
     <>
       <div>
-        <LoginForm />
+        <GoogleLoginForm />
       </div>
     </>
   );
